@@ -3,5 +3,7 @@ fun main(args: Array<String>) {
     val numbers1 = listOf(1, 2, 3, 4, 5, 6)
     println("List: $numbers")
     println("Size: ${numbers.size}")
+    println("First element: ${numbers[0]}")
+    println("Second element: ${numbers[1]}")
 
 }

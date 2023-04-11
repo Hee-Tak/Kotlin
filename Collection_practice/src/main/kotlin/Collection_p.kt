@@ -10,4 +10,9 @@ fun main() {
     val set2 = mutableSetOf(3, 2, 1)
     println("$set1 == $set2 : ${set1 == set2}") //집합(set)이므로 순서 상관x 를 의미
     println("contains 7: ${setOfNumbers.contains(7)}") // false
+
+    val set3 = setOf(6, 8, 14, 17, 13, 5)
+    val set4 = setOf(14, 16, 5, 7, 2, 6, 3)
+    println("$set3 unions $set4 : ${set3.union(set4).sorted()}")
+    println("$set3 intersect $set4 : ${set3.intersect(set4).sorted()}")
 }

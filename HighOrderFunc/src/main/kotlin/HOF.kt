@@ -34,4 +34,7 @@ fun main() {
     //calculateButton.setOnClickListener{ view -> calculateTip() }
     //근데 여기서 view 매개변수는 람다에서 사용되지 않으므로 생략해도 되어서 맨 처음에 저 형태로 되는 것
 
+    //다른 예
+    //costOfServiceEditText.setOnKeyListener{ view, keyCode, event -> handleKeyEvent(view, keyCode) }
+    //costOfServiceEditText.setOnKeyListener{ view, keyCode, _ -> handleKeyEvent(view, keyCode) }
 }
